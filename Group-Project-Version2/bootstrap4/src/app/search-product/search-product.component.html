@@ -1,0 +1,21 @@
+<p>search-product works!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Search Products</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <input type="text" name="productId" placeholder="Product ID" class="form-control" [(ngModel)]="productId">
+        </div>
+        <div class="col-12">
+            <input type="text" name="productDescriptionEnglish" placeholder="Product Description" class="form-control" [(ngModel)]="productDescriptionEnglish">
+        </div>
+        <div class="col-12">
+            <br/>
+            <input (click)="search()" type="submit" id="submit" class="Ybutton" name="submit" value="Search">
+        </div>
+    </div>
+</div>
